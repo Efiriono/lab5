@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+}
+
+.brick-layout {
+    width: 100%;
+    padding: 5px;
+    box-sizing: content-box;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.brick {
+    min-height: 150px;
+    min-width: 50px;
+}
+
+.color-aqua{
+    background-color: aqua;
+    margin: 5px;
+}
+
+.color-yellow {
+    background-color: yellow;
+    margin: 5px;
+}
+
+.color-fuchsia {
+    background-color: fuchsia;
+    margin: 5px;
+}
